@@ -1,0 +1,396 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.tImage {
+  max-height: 40px;
+}
+.block {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  color: purple;
+}
+
+.Button {
+  border: 1.1px solid purple;
+  border-radius: 0.3rem;
+  color: purple;
+  padding: 0.3rem 0.2rem;
+}
+.loginButton {
+  background: white;
+}
+.signButton {
+  background: purple;
+  color: white;
+}
+
+.header {
+  width: 100vw;
+  height: 100%;
+  box-shadow: 0 2px 4px 0px rgb(112, 111, 111);
+  display: flex;
+  justify-content: space-between;
+}
+.nameBlock {
+  display: flex;
+}
+.sideHeader {
+  display: flex;
+  justify-content: space-evenly;
+}
+.block {
+  padding: 0.5rem;
+}
+
+.secondBlock {
+  background: rgba(213, 191, 236, 0.733);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleBlock {
+  background: white;
+  margin: 2rem;
+  width: fit-content;
+  text-align: center;
+  padding: 1rem 2rem;
+  font-weight: 900;
+  color: rgb(107, 10, 136);
+  box-shadow: 0 2px 4px 0px rgb(112, 111, 111);
+  border-radius: 5px;
+}
+
+.contentDilev {
+  text-align: center;
+  color: rgb(107, 10, 136);
+  padding: 0;
+}
+h3 {
+  margin: 5px;
+}
+
+.content {
+  color: purple;
+  font-weight: 100;
+  font-size: 0.9rem;
+  font-family: sans-serif;
+  padding: 1rem 2rem;
+}
+
+.knowBlock {
+  background: rgb(175, 7, 175);
+  padding: 0.3rem 1rem;
+  margin: 0.5rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0px rgb(112, 111, 111);
+  color: white;
+  font-size: 0.89rem;
+}
+
+.questionBlock {
+  background: transparent;
+  border-radius: 5px;
+  padding: 0.6rem;
+  border: 2px solid purple;
+  color: purple;
+}
+
+.groupBoxButton {
+  margin: 1rem;
+  text-align: center;
+}
+.sectionBox {
+  width: 95%;
+  background: rgba(238, 135, 238, 0.788);
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0px -2px 5px #888;
+}
+
+.sectionBoxHeader {
+  color: purple;
+  text-align: center;
+}
+
+.mainDivBox {
+  width: 95%;
+  background: purple;
+}
+
+.sectionBox2 {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px 5px;
+  justify-items: center;
+}
+
+.gridBox {
+  background: linear-gradient(135deg, white, rgb(204, 86, 204));
+  width: 100%;
+  min-height: 80px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tuteBox {
+  text-align: center;
+  width: fit-content;
+  background: purple;
+  color: white;
+  margin: 1.5rem;
+  padding: 0.4rem 3rem;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px rgb(100, 100, 100);
+}
+
+.moneyBackBox {
+  width: 95%;
+  border-radius: 20px;
+  background: linear-gradient(50deg, rgb(177, 104, 177), rgb(129, 63, 155));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: whitesmoke;
+  padding-bottom: 20px;
+}
+
+.offer {
+  margin: 20px;
+}
+
+.offerSize {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.image {
+  width: 70%;
+  border-radius: 10px;
+  box-shadow: 0 5px 0 rgb(112, 3, 103);
+  border-bottom: ivory;
+}
+.moneyBackContent {
+  color: white;
+
+  text-align: center;
+  padding: 2rem;
+}
+
+.button {
+  width: fit-content;
+  padding: 10px 30px;
+  border-radius: 5px;
+  box-shadow: 0 3px 3px 2px rgba(63, 5, 63, 0.534);
+  background: whitesmoke;
+  border-width: 0;
+  font-weight: bold;
+  font-family: monospace;
+  color: purple;
+}
+
+.selectDiv {
+  background: purple;
+  color: white;
+  font-weight: 900;
+  margin: 20px;
+  padding: 1rem 3rem;
+  border-radius: 5px;
+  box-shadow: 0 3px 4px rgba(136, 136, 136, 0.644);
+}
+.category {
+  align-self: flex-start;
+  padding: 10px;
+}
+
+.inlineDiv {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
+  padding: 1rem 2rem;
+}
+
+.slideBox {
+  width: max-content;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  background: purple;
+  white-space: nowrap;
+  margin: 0 1rem;
+  color: white;
+}
+
+.flexGridBox {
+  padding: 20px 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px 5px;
+  justify-items: center;
+  background-color: rgba(183, 183, 233, 0.733);
+}
+
+.boxInfo {
+  margin: 1rem;
+  width: 100px;
+  text-align: center;
+
+  word-wrap: break-word;
+}
+
+.flexGbox {
+  background: linear-gradient(135deg, purple, rgb(204, 86, 204));
+  width: 100%;
+  min-height: 80px;
+  border-radius: 20px 20px 0 0;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+}
+
+.imageflex {
+  width: 90%;
+  border-radius: 5px 5px 0 0;
+}
+
+.gallery {
+  background: #eee;
+}
+
+.gallery-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8c8;
+}
+
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+.carouselDiv {
+  color: purple;
+  text-align: center;
+  margin: 20px;
+}
+.afterCarousel {
+  background-color: purple;
+  text-align: center;
+  padding: 20px 20px 100px 20px;
+  color: azure;
+}
+
+.voucher {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.circle {
+  min-width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: purple;
+  align-items: center;
+}
+
+.rectangle {
+  width: 100%;
+  height: 9rem;
+  background: linear-gradient(135deg, white, rgb(204, 86, 204));
+  border-radius: 20px;
+}
+
+.positionIt1 {
+  position: relative;
+  left: 25px;
+}
+
+.positionIt2 {
+  z-index: 2;
+  position: relative;
+  right: 25px;
+  box-shadow: 0 1px 1px black;
+}
+.footer_box {
+  background-color: black;
+  color: white;
+}
+
+.footer_box ul {
+  color: white;
+  list-style-type: none;
+}
+.footer_box h3 {
+  margin: 10px 0 0 0;
+}
+
+ul {
+  margin: 0 0;
+}
+
+li {
+  width: fit-content;
+}
+
+.querySection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  box-sizing: border-box;
+  position: relative;
+  top: -100px;
+}
+
+.addButton {
+  width: 15%;
+  height: inherit;
+  background-color: rgb(133, 30, 133);
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: auto;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+.queryHeader {
+  color: #eee;
+}
+
+.questionQuery {
+  padding: 0.5rem 0.5rem;
+}
+.queries {
+  display: flex;
+  background: rgb(255, 192, 252);
+  min-width: 70%;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  margin: 10px;
+}
+
+.searchBar {
+  margin: 20px;
+  border-color: purple;
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+}
